@@ -1,0 +1,18 @@
+.Row {
+    text-align: right;
+    font-weight: 800;
+}
+
+.required {
+    color: red;
+}
+
+.box {
+    width: 20px;
+}
+
+.selector {
+    width: 200px;
+}
+
+* {}
