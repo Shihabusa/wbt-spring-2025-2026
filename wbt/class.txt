@@ -1,0 +1,8 @@
+26-04-2026
+lab task online library management system 
+system admin who can 
+crud must
+login registration
+data validation(cookie /session) where needed
+ajex  for search feature
+null validation on the update operation
