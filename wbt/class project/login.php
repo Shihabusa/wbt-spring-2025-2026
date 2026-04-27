@@ -6,15 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="../css/contact.css">
-    <link rel="icon"
-        href="https://tl.vhv.rs/dpng/s/556-5565905_user-call-contacts-phone-user-contacts-png-transparent.png">
 </head>
 
 <body>
-
     <form method="post" action="<?= htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-
         <fieldset>
             <legend>Login</legend>
 
@@ -40,15 +35,12 @@
                             type="password"
                             name="password"
                             required>
-
                         <span style="color:red;">
                             <?= $passErr ?>
                         </span>
 
                     </td>
                 </tr>
-
-
                 <tr>
                     <td></td>
                     <td>
@@ -76,7 +68,6 @@
                 <td>Status</td>
                 <td>Login Successful</td>
             </tr>
-
         </table>
     <?php endif; ?>
 </body>
